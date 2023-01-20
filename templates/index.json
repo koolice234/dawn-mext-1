@@ -1,5 +1,73 @@
 {
   "sections": {
+    "02980feb-9aa0-4208-a6f1-2c8db9be50d0": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-0",
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-1",
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-2",
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-3",
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-4",
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-5",
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-6",
+        "template--16668343107812__02980feb-9aa0-4208-a6f1-2c8db9be50d0-1674235324308767e5-7"
+      ],
+      "settings": {
+        "product": "fluffmatte-bundle",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -45,13 +113,11 @@
         "1264ec74-2c5d-4b67-8b7e-73ec484fd5ed": {
           "type": "images",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kai-pilger-7YwWjgS7aJs-unsplash.jpg"
           }
         },
         "e07eaf16-7469-4ff7-a42a-b3acce270d06": {
           "type": "images",
           "settings": {
-            "image": "shopify:\/\/shop_images\/david-dvoracek-12P0_rzSNpM-unsplash.jpg"
           }
         }
       },
@@ -215,6 +281,7 @@
     }
   },
   "order": [
+    "02980feb-9aa0-4208-a6f1-2c8db9be50d0",
     "image_banner",
     "1641301196c0c248f5",
     "rich_text",
